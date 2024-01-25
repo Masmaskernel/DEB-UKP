@@ -1,0 +1,14 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	smkmuhammadiyahkudus.fresto.biz. root.smkmuhammadiyahkudus.fresto.biz. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.smkmuhammadiyahkudus.fresto.biz.
+ns	IN	A	192.168.28.3
+www	IN	A	192.168.28.3

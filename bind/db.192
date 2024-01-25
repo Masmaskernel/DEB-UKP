@@ -1,0 +1,17 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	fresto.com. root.fresto.com. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.fresto.com.
+4.28.168	IN	PTR	ns.fresto.com.
+2.28.168        IN      PTR    www.fresto.com.
+3.28.168        IN      PTR     www.smkmuhammadiyahkudus.fresto.biz.
+
+ 
