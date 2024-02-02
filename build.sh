@@ -3,7 +3,7 @@
 apt update
 apt install apache2 isc-dhcp-server -y
 mv interfaces /etc/network/interfaces
-cp -r satria /var/wwww/satria
+cp -r satria /var/www/satria
 cp -r fresto /var/www/fresto
 cp sites-available/fresto.conf /etc/apache2/sites-available/fresto.conf
 cp sites-available/satria.conf /etc/apache2/sites-available/satria.conf
